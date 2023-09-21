@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  /* height: 100%; */
+  justify-content: center;
+  /* background-image: url("./walpaper2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background: linear-gradient(
+    180deg,
+    rgba(202, 183, 255, 1) 3%,
+    rgba(4, 0, 255, 1) 100%
+  );
+}
+
+.text {
+  text-align: center;
+  width: 80%;
+  /* height: 10%; */
+  margin: 1rem auto;
+  border-radius: 20px;
+  /* background-color: antiquewhite; */
+  box-shadow: 5px 5px 0px rgb(130, 121, 245);
+  background-image: url("File\ History\ -\ One\ Piece\ Logo\ PNG\ Image\ With\ Transparent\ Background\ png\ -\ Free\ PNG\ Images.png");
+  /* background-size: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-blend-mode: luminosity; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.Input {
+  display: flex;
+  justify-content: center;
+  margin: 5.5rem 0 1rem 0;
+  height: 2rem;
+}
+
+.Input input,
+button {
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  width: 50rem;
+  height: 100vh;
+  /* border: 2px solid; */
+}
+
+.list,
+.ongoing,
+.complate {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 20rem;
+  height: 50%;
+  margin: 1rem;
+  text-align: center;
+  background-color: antiquewhite;
+  box-shadow: 15px 15px rgb(100, 95, 166);
+}
+.text h3 {
+  /* mix-blend-mode: lighte; */
+  color: #191fb9;
+  /* color: #d902ff; */
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 0.4rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list h2 {
+  position: absolute;
+  left: 35%;
+  color: #1d57ff;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ongoing h2 {
+  position: absolute;
+  left: 47.5%;
+  color: #1d57ff;
+  color: #1d57ff;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.complate h2 {
+  position: absolute;
+  color: #1d57ff;
+  left: 61.5%;
+  color: #1d57ff;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list img,
+.ongoing img,
+.complate img {
+  height: 55%;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  opacity: 30%;
+  border-radius: 25px 20px 0px 0px;
+}
+
+#taskname {
+  border: 1px solid red;
+  display: block;
+  background-color: rgb(6, 139, 255);
+  text-align: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+#taskname button {
+  float: right;
+  width: 30px;
+}

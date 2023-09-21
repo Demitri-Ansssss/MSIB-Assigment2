@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assigment 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h3>Masukan List <span>Disini</span></h3>
+        <div class="Input" id="inputtask">
+          <input
+            type="text"
+            placeholder="Silahkan isi dulu"
+            id="todoname"
+            required
+          />
+          <button type="submit" onclick="addList()">Submit</button>
+        </div>
+      </div>
+      <div class="todo">
+        <div class="list" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <h2>List</h2>
+          <img src="Luffy Gear 5.jpg" alt="" srcset="" />
+          <div id="output1"></div>
+        </div>
+        <div class="ongoing" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <h2>On Going</h2>
+          <img src="Best Luffy Gear 5 Wallpapers HD.jpg" alt="" />
+          <div class="output2"></div>
+        </div>
+        <div
+          class="complate"
+          ondrop="dropConfirm(event)"
+          ondragover="allowDrop(event)"
+        >
+          <h2>Complate</h2>
+          <img
+            src="NEW EMPEROR OF THE SEAS _ ONE PIECE GEAR 5 2023 [4K] - YouTube.jpg"
+            alt=""
+          />
+          <div class="output3"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
